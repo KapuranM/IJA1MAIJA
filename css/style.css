@@ -1,0 +1,358 @@
+body{
+    background-image: url(../Img/depositphotos_263805266-stock-photo-make-up-background-of-beauty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 100%;
+    height:auto;
+}
+.pocetna{
+    text-align: center;
+    font-family: mojfont;
+    font-size: 4em;
+}
+.nav{
+    overflow: hidden;
+    background:rgb(72, 72, 75)
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    float:left;
+    text-decoration: none;
+    color:beige;
+    font-weight:bold;
+    padding: 5px 10px;
+    text-align: center;
+}
+.nav a:hover{
+    background: beige;
+    color:rgb(27, 27, 100);
+    transition: 0.77;
+    
+}
+.nav a:active{
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 750px) {
+    .nav a {
+      float: none;
+      width: 100%;
+      background-color: rgba(42, 108, 128, 0.993);
+    }
+  }
+  .opis h1{
+font-family: mojfont;
+text-align: center;
+  }
+  .opis{
+    width:50%;
+    
+    font-weight:bold;
+    margin:5% 25%;
+    font-size: 18px;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .opis ul li{
+        list-style: none;
+        font-style: italic;
+        display: inline-block;
+        margin-right: 7%;
+        margin-bottom: 5%;
+        animation-name: anima;
+        animation-duration: 15s;
+        font-family: mojfont;
+    }
+    @keyframes anima {
+        0%{color: rgb(79, 161, 83)}
+        
+        25%{color:rgb(43, 226, 180);}
+        75%{color: rgb(20, 23, 220);}
+        100%{color: rgb(0, 0, 0);}
+        
+    }
+#kompanija{
+    font-family: mojfont;
+    font-size: 2em;
+}
+#opis2{
+    font-family: mojfont;
+    font-size: 2em;
+}
+@font-face {
+    font-family: mojfont;
+    src: url(../font/IndieFlower-Regular.ttf);
+}
+.nudimo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nudimo h1,h3{
+    font-family: mojfont;
+    font-size: 30px;
+}
+.nudimo a{
+    text-decoration: none;
+}
+.nudimo a:hover{
+    color: rgb(226, 147, 43);
+    font-size: 35px;
+    border: 1px solid violet;
+    background-color: beige;
+}
+.ruz {
+    margin: 5% 25%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px;
+}
+#ruz{ 
+    font-style: italic;
+    font-weight: bold;
+    font-family: mojfont;
+    font-size: 2em;
+}
+
+.maskara {
+    margin: 5% 25%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px;
+}
+#maskara{ 
+    font-style: italic;
+    font-weight: bold;
+    font-family: mojfont;
+    font-size: 2em;
+}
+
+.puder {
+    margin: 5% 25%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px;
+}
+#puder{ 
+    font-style: italic;
+    font-weight: bold;
+    font-family: mojfont;
+    font-size: 2em;
+}
+
+.paleta {
+    margin: 5% 25%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px;
+}
+#paleta{ 
+    font-style: italic;
+    font-weight: bold;
+    font-family: mojfont;
+    font-size: 2em;
+}
+
+.obrve {
+    margin: 5% 25%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 50px;
+    box-shadow: 10px 10px;
+}
+#olovke_za_obrve{ 
+    font-style: italic;
+    font-weight: bold;
+    font-family: mojfont;
+    font-size: 2em;
+}
+.proizvodi table{
+    text-align: center;
+    border: 3px solid rgb(25, 25, 138);
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    text-shadow: 5px 5px 10px rgb(236, 141, 104);
+    background-color: rgb(95, 243, 218);
+}
+.proizvodi table caption{
+    margin:3%;
+    font-family: mojfont;
+    font-size: 2em;
+}
+.proizvodi table  td{
+    padding: 3%;
+    text-align: center;
+}
+
+#vrhstrane{
+    background: beige;
+    color:rgb(27, 27, 100);
+    border: 1px solid silver;
+    text-decoration: none;
+     width:10%;
+}
+#vrhstrane:hover{
+    background: beige;
+    color:rgb(27, 27, 100);
+    border: 2px solid rgb(23, 72, 207);
+    border-radius: 10px;
+    box-shadow: 10px 10px beige;
+}
+
+#naslov{
+    font-family: mojfont;
+    text-align: center;
+    font-size: 50px;
+}
+
+.adresa {
+    width:40%;
+    height:50%;
+    margin: 3% 30%;
+    text-align: center;
+     line-height: 2em;
+     border:1px solid cadetblue;
+     border-radius: 7px 20px;
+     box-shadow: 10px 5px cadetblue ;
+     font-family: mojfont;
+     font-size: medium;
+ }
+
+ form{
+    width: 50%;
+    height: 20%;
+    margin: 5% 25%;
+}
+
+#formu {
+    text-align: center;
+    font-family: mojfont;
+}
+
+form h3{
+   font-size:25px;
+   text-transform:uppercase;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+}
+input[type="text"],input[type="email"]{
+   display:block;
+   width: 60%;
+   height:30%;
+   margin-left:20%;
+   margin-right: 20%;
+   margin-bottom: 4%;
+   text-align: center;
+   border:3px solid cadetblue;
+   border-radius: 10px 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 1% 5%;
+   letter-spacing: 1px;
+   background-color: rgb(102, 215, 230);
+} 
+form select{
+   border: 3px solid cadetblue;
+   width: 60%;
+   height:30%;
+   border-radius: 10px 10px;
+   font-style: italic;
+   font-weight: bold;
+   background-color: rgb(102, 215, 230);
+   margin-left:20%;
+   margin-right: 20%;
+   margin-bottom: 4%;
+   color:rgb(0, 0, 0);
+   padding: 2%;
+}
+form textarea{
+   border: 3px solid cadetblue;
+   width: 60%;
+   border-radius: 10px 10px;
+   margin-left:20%;
+   margin-right: 20%;
+   margin-bottom: 4%;
+   background-color: rgb(102, 215, 230);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 2%;
+
+}
+input[type="submit"],input[type="reset"]{
+   border: 2px solid cadetblue;
+   width: 18%;
+   height: 15%;
+   margin: 0% 16%;
+   padding: 2%;
+   border-radius: 10px 10px;
+   letter-spacing: 1px;
+   background-color: rgb(102, 215, 230);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"]:hover,input[type="email"]:hover{
+   border:4px solid cadetblue;
+   box-shadow: 5px 5px  cadetblue;
+   background-color: rgb(102, 215, 230);
+   color: darkblue;
+}
+form select:hover{
+   border: 4px solid cadetblue;
+   box-shadow: 10px 10px  cadetblue;
+   background-color: rgb(102, 215, 230);
+   color:rgb(238, 0, 0);
+}
+form textarea:hover{
+   border:4px solid cadetblue;
+   box-shadow: 10px 10px  cadetblue;
+   background-color: rgb(102, 215, 230);
+}  
+input[type="submit"]:hover{
+   background-color: chartreuse;
+   color:darkgreen;
+   font-weight: bold;
+   transition: 0.55s;
+   border: 1px solid darkgreen;
+}
+input[type="reset"]:hover{
+   background-color: rgb(212, 50, 50);
+   color: darkred;
+   font-weight: bold;
+   transition: 0.55s;
+   border: 1px solid darkred;
+}
+
+
+
+
+
